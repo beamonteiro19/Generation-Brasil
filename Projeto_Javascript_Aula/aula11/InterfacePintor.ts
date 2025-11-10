@@ -1,4 +1,4 @@
-export interface InterfacePimtor{
+export interface InterfacePintor{
 
     pintar(): void
 }
