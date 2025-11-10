@@ -14,7 +14,7 @@ export abstract class Atleta {
         this._nome = nome;
     }
 
-    public abstract aquecer(): void;{}
+    public abstract aquecer(): void;
 
   
 
