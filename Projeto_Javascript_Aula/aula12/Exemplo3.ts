@@ -1,8 +1,6 @@
 import readline = require("readline-sync");
 import { dividir } from './Funcoes';
 
-
-
 export function main(){
 
 let resultado: number | null;
