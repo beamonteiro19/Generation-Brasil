@@ -2,7 +2,7 @@ CREATE DATABASE exe01;
 
 USE exe01;
 
-CREATE TABLE db_colaboradores(
+CREATE TABLE tb_colaboradores(
 id BIGINT AUTO_INCREMENT,
 nome VARCHAR(255),
 cargo VARCHAR(255),
@@ -13,7 +13,7 @@ data_demissao DATE,
 primary key (id)
 );
 
-ALTER TABLE db_colaboradores RENAME TO tb_colaboradores;
+ALTER TABLE tb_colaboradores RENAME TO tb_colaboradores;
 ALTER TABLE tb_colaboradores DROP COLUMN data_demissao;
 
 INSERT INTO tb_colaboradores(nome, cargo, setor, salario, data_admissao)
